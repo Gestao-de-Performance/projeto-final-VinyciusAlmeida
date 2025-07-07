@@ -281,9 +281,9 @@ h2, a{
         flex-direction: column;
         align-items: center;
         gap: var(--spacing-lg);
-        padding: var(--spacing-xl); /* Padding máximo */
+        padding: var(--spacing-xl);
         background: rgba(255, 255, 255, 0.05);
-        border-radius: 20px; /* Border radius maior */
+        border-radius: 20px;
         transition: var(--transition-smooth);
         border: 1px solid rgba(163, 197, 241, 0.2);
         width: 100%;
@@ -291,24 +291,24 @@ h2, a{
     }
 
     .habilidadeItem:hover {
-        transform: translateY(-10px); /* Movimento máximo */
+        transform: translateY(-10px);
         background: rgba(255, 255, 255, 0.15);
         box-shadow: var(--shadow-hover);
     }
 
     .habilidadeItem img {
-        width: 90px; /* Maior que tablet */
+        width: 90px;
         height: 90px;
         transition: var(--transition-smooth);
     }
 
     .habilidadeItem:hover img {
-        transform: scale(1.2); /* Scale máximo */
+        transform: scale(1.2);
     }
 
     .habilidadeItem span {
         font-weight: 600;
-        font-size: 1.1rem; /* Maior que tablet */
+        font-size: 1.1rem;
         color: var(--cor-texto);
     }
 
@@ -350,13 +350,13 @@ h2, a{
     }
 
     .projetoItem:hover {
-        transform: translateY(-10px); /* Movimento máximo */
+        transform: translateY(-10px);
         box-shadow: var(--shadow-hover);
     }
 
     .projetoItem img {
         width: 100%;
-        height: 250px; /* Altura maior para desktop */
+        height: 250px;
         object-fit: cover;
         transition: var(--transition-smooth);
     }
@@ -366,20 +366,20 @@ h2, a{
     }
 
     .projetoInfo {
-        padding: var(--spacing-xl); /* Padding máximo */
+        padding: var(--spacing-xl);
         flex-grow: 1;
     }
 
     .projetoInfo h3 {
         color: var(--cor-texto);
-        font-size: 1.5rem; /* Maior que tablet */
+        font-size: 1.5rem;
         font-weight: 600;
         margin-bottom: var(--spacing-md);
     }
 
     .projetoInfo p {
         color: rgba(163, 197, 241, 0.8);
-        font-size: 1.1rem; /* Maior que tablet */
+        font-size: 1.1rem;
         line-height: 1.7;
         margin-bottom: var(--spacing-xl);
     }
@@ -395,7 +395,7 @@ h2, a{
         background: linear-gradient(135deg, #0077ff 0%, #005fd1 100%);
         color: white !important;
         border-radius: 12px;
-        font-size: 1.1rem; /* Maior que tablet */
+        font-size: 1.1rem;
         font-weight: 600;
         transition: var(--transition-smooth);
         border: none;
@@ -404,7 +404,7 @@ h2, a{
     }
 
     .btnProjeto:hover {
-        transform: translateY(-4px); /* Movimento maior */
+        transform: translateY(-4px);
         box-shadow: var(--shadow-hover);
     }
 
@@ -440,7 +440,7 @@ h2, a{
         gap: var(--spacing-xl);
         flex-direction: column;
         align-items: center;
-        max-width: 700px; /* Mais largo que tablet */
+        max-width: 700px;
         margin: 0 auto;
         padding: var(--spacing-xl);
     }
@@ -449,20 +449,20 @@ h2, a{
     .formContato textarea {
         width: 100%;
         border: 2px solid rgba(163, 197, 241, 0.3);
-        border-radius: 16px; /* Border radius maior */
+        border-radius: 16px;
         font-family: "Montserrat", sans-serif;
         background: rgba(255, 255, 255, 0.05);
         color: var(--cor-texto);
         backdrop-filter: blur(10px);
         transition: var(--transition-smooth);
         resize: vertical;
-        padding: var(--spacing-xl); /* Padding máximo */
-        font-size: 20px; /* Fonte maior */
+        padding: var(--spacing-xl);
+        font-size: 20px;
         margin-bottom: var(--spacing-xl);
     }
 
     .formContato textarea {
-        min-height: 180px; /* Altura máxima */
+        min-height: 180px;
     }
 
     .formContato input::placeholder,
@@ -475,7 +475,7 @@ h2, a{
         border-color: var(--cor-texto);
         outline: none;
         box-shadow: 0 0 0 5px rgba(163, 197, 241, 0.2);
-        transform: translateY(-4px); /* Movimento maior */
+        transform: translateY(-4px);
     }
 
     .formContato button {
@@ -507,7 +507,7 @@ h2, a{
 
     .formContato button:hover {
         background: linear-gradient(135deg, #005fd1 0%, #0044aa 100%);
-        transform: translateY(-5px); /* Movimento máximo */
+        transform: translateY(-5px);
         box-shadow: var(--shadow-hover);
     }
 
@@ -530,8 +530,6 @@ h2, a{
         margin: 0;
         padding: var(--spacing-xl);
         text-align: center;
-
-        /* LAYOUT HORIZONTAL PARA DESKTOP */
         display: flex;
         justify-content: space-between; /* Redes à esquerda, texto à direita */
         align-items: center;
@@ -541,7 +539,7 @@ h2, a{
 
     .redesSociais {
         display: flex;
-        gap: var(--spacing-xl); /* Gap máximo */
+        gap: var(--spacing-xl);
         order: 1;
     }
 
@@ -559,19 +557,19 @@ h2, a{
     }
 
     .containerRodape a:hover {
-        transform: translateY(-8px) scale(1.2); /* Movimento e scale máximos */
+        transform: translateY(-8px) scale(1.2);
         background: rgba(255, 255, 255, 0.25);
         box-shadow: var(--shadow-hover);
     }
 
     .containerRodape img {
-        width: 40px; /* Maior que tablet */
+        width: 40px;
         height: 40px;
     }
 
     .containerRodape p {
         color: var(--cor-fundo);
-        font-size: 1.1rem; /* Maior que tablet */
+        font-size: 1.1rem;
         font-weight: 500;
         order: 2;
     }
@@ -1486,7 +1484,7 @@ h2, a{
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(10px);
         padding: var(--spacing-md);
-        width: 60px; /* Tamanho fixo */
+        width: 60px;
         height: 60px;
     }
 
